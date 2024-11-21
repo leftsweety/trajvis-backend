@@ -1,0 +1,2 @@
+runtime: python3.8  # Adjust the Python version as needed
+entrypoint: gunicorn -b :$PORT main:app  # Replace "main" with your app filename
